@@ -1,21 +1,32 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Form, FormControl, Button } from "react-bootstrap";
 
 const SocialTopNav = () => {
 	return (
 		<>
-			<Navbar bg="dark" variant="dark">
+			<Navbar>
 				<Container>
-					<Navbar.Brand>
+					<Navbar.Brand href="">
 						<img
-							alt="Logo de la empresa"
-							src="https://key0.cc/images/preview/59518_9032c13e6366da0e5ceed07f7e273efb.png"
-							width="90"
-							height="90"
+							alt=""
+							src="https://rphoneb2b.com/img/r-phone-technology-logo-1617618000.jpg"
+							width="300"
+							height="85"
 							className="d-inline-block align-top"
 						/>
-						{""}
 					</Navbar.Brand>
+					<Navbar.Toggle />
+					<Navbar.Collapse className="justify-content-end">
+						<Form className="d-flex">
+							<FormControl
+								type="search"
+								placeholder="¿Qué buscas?"
+								className="me-2"
+								aria-label="Search"
+							/>
+							<Button variant="outline-success">Buscar</Button>
+						</Form>
+					</Navbar.Collapse>
 				</Container>
 			</Navbar>
 		</>
