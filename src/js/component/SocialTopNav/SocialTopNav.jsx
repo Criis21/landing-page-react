@@ -8,13 +8,13 @@ const SocialTopNav = () => {
 				<Container>
 					<Navbar.Brand>
 						<img
-							alt=""
-							src="https://via.placeholder.com/50.png/9b9b9b/fff"
-							width="30"
-							height="30"
+							alt="Logo de la empresa"
+							src="https://key0.cc/images/preview/59518_9032c13e6366da0e5ceed07f7e273efb.png"
+							width="90"
+							height="90"
 							className="d-inline-block align-top"
-						/>{" "}
-						React Bootstrap
+						/>
+						{""}
 					</Navbar.Brand>
 				</Container>
 			</Navbar>
