@@ -1,13 +1,11 @@
 import React from "react";
-import Jumbotron from "./component/Jumbotron/Jumbotron.jsx";
-import SocialTopNav from "./component/SocialTopNav/SocialTopNav.jsx";
-
+import SecondFormCallToAction from "./component/SecondFormCallToAction/SecondFormCallToAction.jsx";
+import "../styles/App.scss"
 const App = () => {
 	return (
-		<>
-			<SocialTopNav></SocialTopNav>
-			<Jumbotron></Jumbotron>
-		</>
+		<div className="App">
+			<SecondFormCallToAction />
+		</div>
 	);
 };
 
