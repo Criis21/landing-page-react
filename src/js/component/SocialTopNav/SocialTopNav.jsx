@@ -16,17 +16,7 @@ const SocialTopNav = () => {
 						/>
 					</Navbar.Brand>
 					<Navbar.Toggle />
-					<Navbar.Collapse className="justify-content-end">
-						<Form className="d-flex">
-							<FormControl
-								type="search"
-								placeholder="¿Qué buscas?"
-								className="me-2"
-								aria-label="Search"
-							/>
-							<Button variant="outline-success">Buscar</Button>
-						</Form>
-					</Navbar.Collapse>
+					<Navbar.Collapse className="justify-content-end"></Navbar.Collapse>
 				</Container>
 			</Navbar>
 		</>

@@ -14,4 +14,4 @@ import "../styles/index.scss";
 import App from "./App.js";
 
 //render your react application
-ReactDOM.render( < App / > , document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector("#app"));

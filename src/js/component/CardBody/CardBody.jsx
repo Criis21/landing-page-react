@@ -4,6 +4,7 @@ const CardBody = () => {
 	return (
 		<>
 			<Container className="mb-3">
+				<h2>Precios</h2>
 				<CardGroup className="mt-5">
 					<Card>
 						<Card.Body>

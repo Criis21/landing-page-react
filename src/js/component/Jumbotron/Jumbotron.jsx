@@ -32,8 +32,9 @@ const Jumbotron = () => {
 					</Carousel>
 				</Row>
 				<Row>
-					<Col className="p-3 my-3">
+					<Col className="p-3 my-3" xs={12} md={6}>
 						<img
+							className="img-fluid"
 							src="https://pyp-automoviles.com/wp-content/uploads/2020/05/AYUDA-1.jpg"
 							alt="some text"
 						/>

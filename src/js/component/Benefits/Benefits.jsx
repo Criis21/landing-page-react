@@ -7,7 +7,7 @@ const Benefits = () => {
 		<>
 			<Container className="my-5">
 				<Row>
-					<h2> Beneficios </h2>
+					<h2 className="py-4"> Beneficios </h2>
 					<Col xs={12} md={4}>
 						<p>
 							Puedes buscar y comparar. Pero estamos tan seguros
