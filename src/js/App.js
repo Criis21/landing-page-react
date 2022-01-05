@@ -4,13 +4,17 @@ import CardBody from "./component/CardBody/CardBody.jsx";
 import TestimonialsSection from "./component/Testimonials/Testimonials.jsx";
 
 const App = () => {
-	return (
-		<>
-			<CardBody />
-			<Benefits />
-			<TestimonialsSection />
-		</>
-	);
+    return ( <
+        >
+        <
+        CardBody / >
+        <
+        Benefits / >
+        <
+        TestimonialsSection / >
+        <
+        />
+    );
 };
 
 export default App;
