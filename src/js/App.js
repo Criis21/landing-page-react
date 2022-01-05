@@ -1,12 +1,20 @@
 import React from "react";
-import SecondFormCallToAction from "./component/SecondFormCallToAction/SecondFormCallToAction.jsx";
-import "../styles/App.scss"
+import Benefits from "./component/Benefits/Benefits.jsx";
+import CardBody from "./component/CardBody/CardBody.jsx";
+import TestimonialsSection from "./component/Testimonials/Testimonials.jsx";
+
 const App = () => {
-	return (
-		<div className="App">
-			<SecondFormCallToAction />
-		</div>
-	);
+    return ( <
+        >
+        <
+        CardBody / >
+        <
+        Benefits / >
+        <
+        TestimonialsSection / >
+        <
+        />
+    );
 };
 
 export default App;
